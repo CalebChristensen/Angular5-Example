@@ -13,7 +13,6 @@ export class AppService {
     {id: 1, firstName: 'Sawyer', lastName: 'Christensen', email: 'SoyBoyC@aol.com'},
     {id: 1, firstName: 'Atticus', lastName: 'Christensen', email: 'AttyBoyC@aol.com'},
   ];
-  return Observable.of(fakeUsers).delay(5000);
   }
   
 }
